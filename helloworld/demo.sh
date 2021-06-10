@@ -10,8 +10,9 @@ clear
 
 # Put your stuff here
 
-pei "cat templates/pod.yaml"
+pei "ls -lR"
+pe "cat templates/pod.yaml"
 pe "cat values.yaml"
 pe "helm install helloworld ."
 pe "kubectl logs helloworld"
-pe "helm delete helloworld"
+pei "helm delete helloworld"

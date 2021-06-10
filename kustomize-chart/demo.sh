@@ -11,6 +11,7 @@ clear
 # Put your stuff here
 
 pei "cp -R ../helloworld ."
+pei "ls -lR"
 pe "cat kustomization.yaml"
 pe "kustomize build -o helloworld/templates"
 pe "cat helloworld/templates/v1_pod_helloworld.yaml"

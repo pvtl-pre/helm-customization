@@ -11,6 +11,7 @@ clear
 # Put your stuff here
 
 pei "cp -R ../helloworld ."
+pei "ls -lR"
 pe "cd kustomize"
 pe "helm install helloworld ../helloworld --post-renderer ./kustomize --debug --dry-run"
 pe "cat kustomize"
