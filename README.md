@@ -48,14 +48,14 @@ cd kustomize-chart
 ./demo.sh
 ```
 
-# Demo 3: Kustomize Template
+# Demo 3: Kustomize Chart (Transient)
 
 This demo will showcase kustomize being used in a more transient way because the customizations are not meant to be stored permanently. This would cover scenarios where helm chart deployments are different per target environment. Helm contains a post-renderer feature which is a better option than the JFrog article below as it does not utilize helm.
 
 From the root repo directory:
 
 ```sh
-cd kustomize-template
+cd kustomize-chart-transient
 ./demo.sh
 ```
 
